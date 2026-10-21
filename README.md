@@ -23,7 +23,7 @@
 *   **Kiến trúc:** Dựa trên các thành phần của Android Jetpack.
 *   **Machine Learning:** TensorFlow Lite để thực thi mô hình phân loại nấm trên thiết bị.
 *   **UI:** Material Design Components.
-*   **Camera:** CameraX (Dự kiến).
+*   **Camera:** CameraX.
 
 ## Cài đặt và Chạy dự án
 
