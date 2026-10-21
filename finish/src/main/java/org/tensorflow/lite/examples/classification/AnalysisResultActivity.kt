@@ -98,8 +98,8 @@ class AnalysisResultActivity : AppCompatActivity() {
     }
     // ---
 
-    private val confidenceThresholdHigh = 0.60f
-    private val confidenceThresholdLow = 0.40f
+    private val confidenceThresholdHigh = 0.70f
+    private val confidenceThresholdLow = 0.50f
 
     // ⭐ --- BIẾN TỪ REPORTFRAGMENT.KT ---
     private val auth = Firebase.auth
