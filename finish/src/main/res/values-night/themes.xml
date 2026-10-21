@@ -1,0 +1,60 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme cơ sở (TỐI) - Cập nhật theo màu Dark Theme -->
+    <style name="Theme.TFLClassify" parent="Theme.Material3.DayNight.NoActionBar">
+
+        <!-- Màu chính (Primary) - Dùng màu "ô chụp ảnh" làm màu chính -->
+        <item name="colorPrimary">@color/dark_theme_camera_box</item> <!-- #ebd2ba -->
+        <item name="colorOnPrimary">@color/dark_theme_camera_text</item> <!-- #361b0d -->
+        <item name="colorPrimaryContainer">@color/dark_theme_camera_box</item> <!-- #ebd2ba -->
+        <item name="colorOnPrimaryContainer">@color/dark_theme_camera_text</item> <!-- #361b0d -->
+
+        <!-- Màu phụ (Secondary) - Dùng màu "search bar" làm màu phụ -->
+        <item name="colorSecondary">@color/dark_theme_search_bar</item> <!-- #3c3c3c -->
+        <item name="colorOnSecondary">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorSecondaryContainer">@color/dark_theme_search_bar</item> <!-- #3c3c3c -->
+        <item name="colorOnSecondaryContainer">@color/brand_white</item> <!-- #ffffff -->
+
+        <!-- Màu Hổ phách (Tertiary) - Tái sử dụng màu Primary -->
+        <item name="colorTertiary">@color/dark_theme_camera_box</item> <!-- #ebd2ba -->
+        <item name="colorOnTertiary">@color/dark_theme_camera_text</item> <!-- #361b0d -->
+        <item name="colorTertiaryContainer">@color/dark_theme_camera_box</item> <!-- #ebd2ba -->
+        <item name="colorOnTertiaryContainer">@color/dark_theme_camera_text</item> <!-- #361b0d -->
+
+        <!-- Màu Lỗi (Error) -->
+        <item name="colorError">@color/brand_red_error</item> <!-- #ef2945 -->
+        <item name="colorOnError">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorErrorContainer">@color/dark_theme_search_bar</item> <!-- #3c3c3c -->
+        <item name="colorOnErrorContainer">@color/brand_red_error</item> <!-- #ef2945 -->
+
+        <!-- Màu Nền (quan trọng cho CardView) - Dùng màu "nền" -->
+        <item name="android:colorBackground">@color/dark_theme_background</item> <!-- #272323 -->
+        <item name="colorOnBackground">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorSurface">@color/dark_theme_background</item> <!-- #272323 -->
+        <item name="colorOnSurface">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorSurfaceVariant">@color/dark_theme_search_bar</item> <!-- #3c3c3c -->
+        <item name="colorOnSurfaceVariant">@color/dark_theme_camera_box</item> <!-- #ebd2ba -->
+
+        <!-- Màu Viền - Dùng màu search bar -->
+        <item name="colorOutline">@color/dark_theme_search_bar</item> <!-- #3c3c3c -->
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <!-- Icon status bar (pin, sóng) sẽ là màu trắng (trên nền tối) -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+
+    <!-- Các style khác giữ nguyên -->
+    <style name="TabTextAppearance.Selected" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/brand_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TabTextAppearance.Unselected" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="Widget.App.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background_selector</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+    </style>
+</resources>

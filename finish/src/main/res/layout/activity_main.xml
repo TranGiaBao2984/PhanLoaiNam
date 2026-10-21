@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SỬA: Đổi sang FrameLayout để xếp chồng các lớp giao diện -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/colorSurface"
+    tools:context=".MainActivity">
+
+    <!-- Lớp 1: Camera Preview (toàn màn hình) -->
+    <androidx.camera.view.PreviewView
+        android:id="@+id/viewFinder"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- Lớp 2: Khung ngắm (Scan box) -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginHorizontal="48dp"
+        android:layout_marginVertical="150dp"
+        android:background="@drawable/scan_box_background" />
+
+    <!-- Lớp 3: Thanh hướng dẫn ở trên -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|top"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/rounded_background_scrim"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp"
+        android:text="@string/camera_instruction"
+        android:textColor="@android:color/white"
+        android:textSize="16sp" />
+
+    <!-- Lớp 4: Nút Back (Góc trên bên trái) -->
+    <ImageButton
+        android:id="@+id/ivBackButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="start|top"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="@string/quay_l_i"
+        android:src="@android:drawable/ic_menu_close_clear_cancel"
+        app:tint="@android:color/white" />
+
+    <ImageButton
+        android:id="@+id/ivGalleryButton"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_gravity="bottom|start"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="56dp"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        android:contentDescription="Chọn từ thư viện ảnh"
+        android:src="@android:drawable/ic_menu_gallery"
+        app:tint="@android:color/white" />
+    <!-- Lớp 5: Nút Chụp ảnh (Góc dưới) -->
+    <ImageButton
+        android:id="@+id/ivShutterButton"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/shutter_button_background"
+        android:contentDescription="@string/camera_shutter" />
+
+    <!-- Lớp 6: ProgressBar (chồng lên nút chụp) -->
+    <ProgressBar
+        android:id="@+id/captureProgressBar"
+        android:layout_width="72dp"
+        android:layout_height="72dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_marginBottom="48dp"
+        android:indeterminate="true"
+        android:indeterminateTint="?attr/colorPrimary"
+        android:visibility="gone" /> <!-- Ẩn ban đầu -->
+
+</FrameLayout>

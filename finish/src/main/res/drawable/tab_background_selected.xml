@@ -1,0 +1,7 @@
+<!-- Nền XANH LÁ cho tab KHI ĐƯỢC CHỌN (giống ảnh mẫu) -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- Bạn có thể đổi màu này trong colors.xml -->
+    <solid android:color="?attr/colorPrimary" />
+    <corners android:radius="24dp" />
+</shape>

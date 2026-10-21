@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "534725183619",
+    "project_id": "phanloainam",
+    "storage_bucket": "phanloainam.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534725183619:android:6153254234a6b21557f3b6",
+        "android_client_info": {
+          "package_name": "org.tensorflow.lite.examples.classification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534725183619-slcme20l100dp9ak87u24p9bs6f6t5dt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.tensorflow.lite.examples.classification",
+            "certificate_hash": "4e87700d3904a9455d685bebeff51c6cd3a809a7"
+          }
+        },
+        {
+          "client_id": "534725183619-8upanks073hvkmb098lf6i65tul0adca.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVMoaolaWwgpFIRJ9RxkTVfR7MOUp0tQg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534725183619-8upanks073hvkmb098lf6i65tul0adca.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

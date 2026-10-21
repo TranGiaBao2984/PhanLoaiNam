@@ -1,0 +1,59 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Theme cơ sở (SÁNG) - Cập nhật theo màu Brand -->
+    <style name="Theme.TFLClassify" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Màu chính (Primary) -->
+        <item name="colorPrimary">@color/brand_dark_brown</item> <!-- #361b00 -->
+        <item name="colorOnPrimary">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorPrimaryContainer">@color/brand_cream</item> <!-- #fff0e2 -->
+        <item name="colorOnPrimaryContainer">@color/brand_dark_brown</item> <!-- #361b00 -->
+
+        <!-- Màu phụ (Secondary) -->
+        <item name="colorSecondary">@color/brand_medium_brown</item> <!-- #8c6443 -->
+        <item name="colorOnSecondary">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorSecondaryContainer">@color/brand_cream</item> <!-- #fff0e2 -->
+        <item name="colorOnSecondaryContainer">@color/brand_dark_brown</item> <!-- #361b00 -->
+
+        <!-- Màu Hổ phách (Tertiary) -->
+        <item name="colorTertiary">@color/brand_medium_brown</item> <!-- #8c6443 -->
+        <item name="colorOnTertiary">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorTertiaryContainer">@color/brand_cream</item> <!-- #fff0e2 -->
+        <item name="colorOnTertiaryContainer">@color/brand_dark_brown</item> <!-- #361b00 -->
+
+        <!-- Màu Lỗi (Error) -->
+        <item name="colorError">@color/brand_red_error</item> <!-- #ef2945 -->
+        <item name="colorOnError">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorErrorContainer">@color/brand_cream</item> <!-- #fff0e2 -->
+        <item name="colorOnErrorContainer">@color/brand_red_error</item> <!-- #ef2945 -->
+
+        <!-- Màu Nền (quan trọng cho CardView) -->
+        <item name="android:colorBackground">@color/brand_light_gray</item> <!-- #f9f9f9 -->
+        <item name="colorOnBackground">@color/brand_dark_gray</item> <!-- #25201b -->
+        <item name="colorSurface">@color/brand_light_gray</item> <!-- #f9f9f9 -->
+        <item name="colorOnSurface">@color/brand_dark_gray</item> <!-- #25201b -->
+        <item name="colorSurfaceVariant">@color/brand_white</item> <!-- #ffffff -->
+        <item name="colorOnSurfaceVariant">@color/brand_medium_brown</item> <!-- #8c6443 -->
+
+        <!-- Màu Viền -->
+        <item name="colorOutline">@color/brand_medium_brown</item> <!-- #8c6443 -->
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <!-- Icon status bar (pin, sóng) thành màu đen (trên nền sáng) -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <!-- Các style khác giữ nguyên -->
+    <style name="TabTextAppearance.Selected" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/brand_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TabTextAppearance.Unselected" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">?attr/colorPrimary</item>
+    </style>
+    <style name="Widget.App.Chip" parent="Widget.Material3.Chip.Filter">
+        <item name="chipBackgroundColor">@color/chip_background_selector</item>
+        <item name="android:textColor">@color/chip_text_selector</item>
+        <item name="chipStrokeWidth">0dp</item>
+        <item name="ensureMinTouchTargetSize">false</item>
+    </style>
+</resources>

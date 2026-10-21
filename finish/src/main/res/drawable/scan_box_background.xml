@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!--
+    Nền trong suốt, viền màu trắng bán trong suốt.
+    Chúng ta dùng màu trắng vì theme của bạn (Sáng/Tối) sẽ đổi màu nền,
+    nhưng khung màu trắng luôn nổi bật.
+    -->
+    <solid android:color="@android:color/transparent" />
+    <stroke
+        android:width="3dp"
+        android:color="#B3FFFFFF" /> <!-- Màu trắng, 70% trong suốt -->
+    <corners android:radius="32dp" /> <!-- Bo góc lớn -->
+</shape>

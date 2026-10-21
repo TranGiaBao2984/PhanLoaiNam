@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LIGHT THEME COLORS -->
+    <color name="brand_dark_brown">#361b00</color>
+    <color name="brand_dark_gray">#25201b</color>
+    <color name="brand_cream">#fff0e2</color>
+    <color name="brand_medium_brown">#8c6443</color>
+    <color name="brand_light_gray">#f9f9f9</color>
+    <color name="brand_red_error">#ef2945</color>
+    <color name="brand_white">#ffffff</color>
+
+    <!-- DARK THEME COLORS -->
+    <color name="dark_theme_background">#272323</color>
+    <color name="dark_theme_search_bar">#3c3c3c</color>
+    <color name="dark_theme_camera_box">#ebd2ba</color>
+    <color name="dark_theme_camera_text">#361b0d</color>
+
+    <!-- ADDITIONAL UI COLORS -->
+    <color name="white">#ffffff</color>
+    <color name="light_background">#f5f5f5</color>
+    <color name="text_primary_light">#1a1a1a</color>
+    <color name="text_secondary_light">#666666</color>
+    <color name="text_tertiary_light">#999999</color>
+
+    <!-- ALIASES FOR MATERIAL THEME -->
+    <color name="md_theme_primary">@color/brand_dark_brown</color>
+    <color name="md_theme_onPrimary">@color/brand_white</color>
+    <color name="md_theme_surfaceVariant">@color/brand_cream</color>
+    <color name="md_theme_onSurfaceVariant">@color/brand_medium_brown</color>
+
+    <!-- ERROR COLORS FOR DARK THEME -->
+    <color name="md_theme_error_dark">#FFB4AB</color>
+    <color name="md_theme_onError_dark">#690005</color>
+    <color name="md_theme_errorContainer_dark">#93000A</color>
+    <color name="md_theme_onErrorContainer_dark">#FFDAD6</color>
+
+    <color name="md_theme_error">#BA1A1A</color>
+    <color name="md_theme_tertiary">#7D5700</color>
+    <color name="md_theme_edible">#08CB00</color>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@android:drawable/ic_menu_today"
+        android:title="Trang chủ" />
+
+    <item
+        android:id="@+id/nav_library"
+        android:icon="@android:drawable/ic_menu_mapmode"
+        android:title="Thư viện" />
+
+    <!-- Placeholder cho FAB ở giữa -->
+    <item
+        android:id="@+id/nav_placeholder"
+        android:enabled="false"
+        android:title="" />
+
+    <item
+        android:id="@+id/nav_history"
+        android:icon="@android:drawable/ic_menu_recent_history"
+        android:title="Lịch sử" />
+
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@android:drawable/ic_menu_manage"
+        android:title="Tài khoản" />
+
+</menu>

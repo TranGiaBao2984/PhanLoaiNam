@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Nhận Dạng Nấm</string>
+
+    <!-- String cho Adapter -->
+    <string name="label_confidence">Độ tin cậy: %.2f%%</string>
+    <string name="label_description">Mô tả: %s</string>
+    <string name="label_habitat">Môi trường: %s</string>
+    <string name="label_toxicity_note">⚠️ Ghi chú: %s</string>
+    <string name="label_symptoms">⚕️ Triệu chứng: %s</string>
+
+    <!-- String cho các Activity -->
+    <string name="permission_deny_text">Bạn phải cấp quyền camera để ứng dụng hoạt động.</string>
+    <string name="t_m_ki_m_n_m">Tìm kiếm nấm…</string>
+
+    <!-- String cho Màn hình Chi tiết -->
+    <string name="quay_l_i">Quay lại</string>
+    <string name="mushroom_not_found">Không tìm thấy thông tin</string>
+    <string name="detail_title_toxicity">Độc tính</string>
+    <string name="detail_title_description">Đặc điểm mô tả</string>
+    <string name="detail_title_habitat">Môi trường sinh trưởng</string>
+    <string name="detail_title_symptoms">Triệu chứng ngộ độc</string>
+    <string name="detail_title_reference">Nguồn tham khảo</string>
+    <string name="h_nh_minh_h_a_n_m">Hình minh họa nấm</string>
+    <string name="h_nh_chi_ti_t_n_m">Hình chi tiết nấm</string>
+
+    <!-- String cho Màn hình Chọn ảnh (AnalysisResultActivity) -->
+    <string name="nh_ch_n">Ảnh đã chọn</string>
+    <string name="ang_ph_n_t_ch_nh">🔍 Đang phân tích ảnh…</string>
+    <string name="k_t_qu_ph_n_t_ch">📊 Kết quả phân tích</string>
+
+    <!-- String cho Trang chủ (HomeActivity) -->
+    <string name="ph_n_lo_i_n_m">PHÂN LOẠI NẤM</string>
+    <string name="qu_t_h_nh_nh">QUÉT HÌNH ẢNH</string>
+    <string name="ch_n_nh">CHỌN ẢNH</string>
+    <string name="th_vi_n_n_m1">THƯ VIỆN NẤM</string> <!-- Dùng chung cho cả contentDescription -->
+
+    <string name="home_how_to_use">Hướng dẫn sử dụng</string>
+    <string name="home_instructions">
+        1. <b>Quét hình ảnh:</b> Dùng camera để chụp ảnh nấm.\n
+        2. <b>Chọn ảnh:</b> Phân tích ảnh nấm có sẵn từ thư viện của bạn.\n
+        3. <b>Thư viện nấm:</b> Tra cứu thông tin các loại nấm đã biết.
+    </string>
+    <string name="home_warning_title">CẢNH BÁO AN TOÀN QUAN TRỌNG</string>
+    <string name="home_warning_body">• Kết quả phân loại chỉ mang tính CHẤT THAM KHẢO và có thể không chính xác.\n\n• TUYỆT ĐỐI KHÔNG SỬ DỤNG ỨNG DỤNG NÀY để quyết định một cây nấm có ăn được hay không.\n\n• Luôn luôn tham khảo ý kiến của chuyên gia.</string>    <string name="home_warning_icon_desc">Cảnh báo</string>
+    <string name="dark_mode">Chế độ tối</string>
+
+    <!-- ⭐ THÊM MỚI: String cho Giao diện Camera Mới -->
+    <string name="camera_instruction">Chụp hoặc chọn ảnh để phân loại nấm</string>
+    <string name="camera_shutter">Chụp ảnh</string>
+    <string name="capture_failed">Lỗi khi chụp ảnh</string>
+    <string name="camera_startup_failed">Không thể khởi động camera</string>
+    <string name="mushroom_ai">🍄 Mushroom AI</string>
+    <string name="ph_n_lo_i_n_m_nth_ng_minh">Phân Loại Nấm\nThông Minh</string>
+    <string name="nh_n_di_n_n_m_an_to_n_v_i_ai">Nhận diện nấm an toàn với AI</string>
+    <string name="b_t_u_ph_n_t_ch">Bắt đầu phân tích</string>
+    <string name="ch_p_nh_n_m">Chụp Ảnh Nấm</string>
+    <string name="s_d_ng_camera_nh_n_di_n_ngay">Sử dụng camera để nhận diện ngay</string>
+    <string name="ch_n_nh1">Chọn Ảnh</string>
+    <string name="t_th_vi_n">Từ thư viện</string>
+    <string name="th_vi_n">Thư Viện</string>
+    <string name="danh_s_ch_n_m">Danh sách nấm</string>
+    <string name="h_ng_d_n_s_d_ng">💡 Hướng Dẫn Sử Dụng</string>
+    <string name="baby">⚠️</string>
+    <string name="xem_chi_ti_t">XEM CHI TIẾT</string>
+    <string name="th_vi_n_n_m">Thư viện nấm</string>
+    <string name="tab_all">TẤT CẢ</string>
+    <string name="tab_edible">AN TOÀN</string>
+    <string name="tab_toxic">ĐỘC</string>
+    <string name="tab_unknown">KHÔNG XÁC ĐỊNH</string>
+    <string name="tab_filter_description">Bộ lọc danh sách nấm</string>
+    <string name="error_no_recognition">❌ Không tìm thấy kết quả phù hợp. Vui lòng thử lại với ảnh rõ nét hơn. Nếu ảnh đã rõ, có thể đây là loài nấm mà ứng dụng chưa nhận diện được.</string>
+    <string name="warning_low_confidence">⚠️ Độ tin cậy không cao. Có vẻ đây là %s. Hãy thử chụp lại ảnh rõ nét hơn.</string>
+    <string name="error_analysis_failed">❌ Đã xảy ra lỗi nghiêm trọng khi phân tích.</string>
+    <string name="error_load_image">Không thể tải ảnh.</string>
+    <string name="error_no_uri">Không nhận được URI ảnh.</string>
+    <string name="home_instructions_new">• Chụp ảnh hoặc chọn từ thư viện\n• Hệ thống AI phân tích tự động\n• Xem kết quả và mức độ an toàn\n• Tham khảo chuyên gia trước khi dùng</string>
+    <string name="c_v_y_l_m_t_lo_i_n_m_l">Có vẻ đây là một loài nấm lạ!!!</string>
+    <string name="nav_home">Trang chủ</string>
+    <string name="nav_library">Thư viện</string>
+    <string name="nav_history">Lịch sử</string>
+    <string name="nav_profile">Tài khoản</string>
+
+    <string name="content_desc_home">Nút trang chủ</string>
+    <string name="content_desc_library">Nút thư viện</string>
+    <string name="content_desc_history">Nút lịch sử</string>
+    <string name="content_desc_profile">Nút tài khoản</string>
+    <string name="content_desc_camera">Chụp ảnh nấm</string>
+</resources>
